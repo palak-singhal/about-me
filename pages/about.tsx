@@ -21,7 +21,7 @@ export default function About() {
         </div>
         <div className="text-center text-gray-800 dark:text-white">
           In addition to coding and learning new tech, I enjoy biking, cooking and playing legos
-          with my little one. If any of these things interest you too, I'd love to chat!
+          with my little one. If any of these things interest you too, I&apos;d love to chat!
         </div>
       </motion.div>
     </Layout>
