@@ -1,6 +1,5 @@
 import Layout from "../components/layout";
 import { motion } from "framer-motion";
-import Image from "next/Image";
 
 export default function Home() {
   return (
@@ -13,14 +12,8 @@ export default function Home() {
         className="flex flex-col items-center justify-center"
       >
         <div className="flex flex-col items-center justify-center">
-          <Image
-            height={144}
-            width={144}
-            className="mb-8 rounded-full"
-            src="/profile.jpg"
-            alt="Katherine"
-          />
-          <h1 className="mx-auto text-2xl font-semibold tracking-widest text-center sm:text-3xl mt-6">
+          <img className="w-32 h-32 mb-8 rounded-full" src="/profile.jpg" alt="Katherine" />
+          <h1 className="mx-auto text-2xl font-semibold tracking-widest text-center sm:text-3xl">
             PALAK SINGHAL
           </h1>
           <hr className="w-16 my-8 border-gray-300" />
